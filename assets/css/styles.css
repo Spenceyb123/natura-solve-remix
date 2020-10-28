@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.banner {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  .landing {
+    /*position: relative;*/
+    /*height: 100vh;*/
+    overflow: hidden;
+    width: 100vw;
+    max-width: 100%;
+    /*display: flex;*/
+  }
+}
+
+.logo {
+  position: relative;
+}
+
+@media (max-width: 532px) {
+  .mission {
+    position: relative;
+    color: white;
+    font-size: 2.5em;
+    top: -5%;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 533px) {
+  .mission-statement {
+    color: white;
+    font-size: 1.5em;
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 532px) {
+  .mission-statement {
+    position: relative;
+    color: white;
+    top: -5%;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+.learn-more {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.90;
+  border-radius: 20px;
+}
+
+.tile-image {
+  width: 100%;
+}
+
+.service-tile {
+  background: #659dbd;
+  box-shadow: 12px 12px 8px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  margin-bottom: 1.5em;
+  border: 1px solid #659dbd;
+}
+
+@media (min-width: 768px) {
+  .service-tile {
+    background: #659dbd;
+    box-shadow: 12px 12px 8px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    margin-bottom: 3em;
+    border: 1px solid #659dbd;
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+}
+
+.navbar-light .navbar-toggler-icon {
+}
+
+.btn:not(:disabled):not(.disabled) {
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: ("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%64,178,228, 0.5%' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (min-width: 992px) {
+  .navbar-light .navbar-brand {
+    width: 25%;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-light .navbar-brand {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .row.no-gutters.justify-content-around.tiles-row {
+    margin: 0 1.5em;
+  }
+}
+
+.tile-heading {
+  color: white;
+  vertical-align: middle;
+  font-size: 2em;
+  height: 90px;
+  display: table-cell;
+}
+
+.tile-heading-container {
+  display: table;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.tile-paragraph {
+  margin: 1.7em;
+}
+
+#phone-number {
+  text-align: center;
+  padding-bottom: 3em;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #454141;
+}
+
+@keyframes pulse {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+@media (min-width: 768px) {
+  .service-tile:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    left: 10px;
+  }
+}
+
+.tile-heading:hover {
+  text-decoration: underline;
+}
+
+#drop {
+  width: 100%;
+}
+
+#eng-dosing-container {
+  color: white;
+  /*margin: 1.5em;*/
+  text-align: center;
+  padding: 2em;
+}
+
+@media (min-width: 768px) {
+  #eng-dosing-container {
+    color: white;
+    max-width: 50%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #eng-dosing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.drop-container {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .drop-container {
+    width: 20%;
+    margin: 0;
+    padding: 1.5em 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .drop-container {
+    width: 15%;
+    margin: 0;
+    padding: 1.5em 0;
+  }
+}
+
+#eng-dosing-heading {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#eng-dosing-p {
+  font-size: 1.1em;
+}
+
+.contact-btn {
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+.service-tiles p a {
+  color: rgb(69,65,65);
+  text-decoration: underline;
+}
+
+p {
+}
+
+.header-sticky-container {
+  position: static;
+  top: 0;
+}
+
+.top-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#banner-link {
+  text-decoration: none;
+}
+
